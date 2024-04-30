@@ -26,6 +26,12 @@ import Greeting from './Greeting';
 import Welcome from './Welcome';
 import Section from './Section';
 import MyComponent from './MyComponent';
+import Say from './Say';
+import Clock from './Clock';
+import Timer from './Timer';
+import EventPractice from './EventPractice';
+import FruitSelect from './FruitSelect';
+import Table from './Table';
 // const member = {
 //   name: "곰사육사",
 //   age: 10,
@@ -46,17 +52,25 @@ import MyComponent from './MyComponent';
 // export default App;
 
 // 컴포넌트의 합성
-function App() {
+// function App() {
   
+//   return(
+//     <>
+//       <Section title="스포츠" content="오늘의 프로야구는 기아가 1등입니다."/>
+//       <Section title="정치" content="오늘은 영수 회담이 진행 중 입니다."/>
+//       <hr/>
+//       <MyComponent name="은채" age={20}/>
+//       <MyComponent name="카즈하" />
+//       <MyComponent age={33} />
+//       <MyComponent><h1>여기는 르세라핌입니다.</h1></MyComponent>
+//     </>
+//   );
+// };
+// export default App;
+function App() {
   return(
     <>
-      <Section title="스포츠" content="오늘의 프로야구는 기아가 1등입니다."/>
-      <Section title="정치" content="오늘은 영수 회담이 진행 중 입니다."/>
-      <hr/>
-      <MyComponent name="은채" age={20}/>
-      <MyComponent name="카즈하" />
-      <MyComponent age={33} />
-      <MyComponent><h1>여기는 르세라핌입니다.</h1></MyComponent>
+      <Table/>
     </>
   );
 };

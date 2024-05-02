@@ -1,5 +1,5 @@
-import { Fragment } from 'react';
-import './App.css';
+import { Fragment } from "react";
+import "./App.css";
 // JSX란 ? JavaScript에 XML을 추가 확장한 문법
 // html 태그 사용 시 반드시 닫힘 태그가 존재해야 함 (<br></br>, <br/>)
 // 컴포넌트가 반환 될 때 태그는 한개 이어야 함
@@ -7,7 +7,7 @@ import './App.css';
 // 조건부 연산자 : 중괄호{} 내에서 조건부 연산자 사용 가능
 // 조건부 렌더링 : && 연산자의 특징을 활용해서 조건에 따라 화면 렌더링
 //  name === "리엑트" && <h1>리액트 입니다.</h1>
-// 인라인 스타일링 : 
+// 인라인 스타일링 :
 
 // function App() {
 //   const name = "리엑트";
@@ -17,21 +17,29 @@ import './App.css';
 //     fontSize: "2em"
 //   }
 //   return <p style={styleC}>{name === "리엑트" ? <h1>리엑트</h1> : <h2>자바스크립트</h2>}</p>
-  
+
 // }
 
 // export default App;
 
-import Greeting from './Greeting';
-import Welcome from './Welcome';
-import Section from './Section';
-import MyComponent from './MyComponent';
-import Say from './Say';
-import Clock from './Clock';
-import Timer from './Timer';
-import EventPractice from './EventPractice';
-import FruitSelect from './FruitSelect';
-import Table from './Table';
+import Greeting from "./Greeting";
+import Welcome from "./Welcome";
+import Section from "./Section";
+import MyComponent from "./MyComponent";
+import Say from "./Say";
+import Clock from "./Clock";
+import Timer from "./Timer";
+import EventPractice from "./EventPractice";
+import FruitSelect from "./FruitSelect";
+import Table from "./Table";
+import UserList from "./UserList";
+import Map from "./Map";
+import TodoList from "./TodoList";
+import Ref from "./Ref";
+import HooksCnt from "./Hooks1";
+import Members from "./Hook연습문제";
+import NameCard from "./NameCard";
+import ExComponent from "./UserRef2";
 // const member = {
 //   name: "곰사육사",
 //   age: 10,
@@ -53,7 +61,7 @@ import Table from './Table';
 
 // 컴포넌트의 합성
 // function App() {
-  
+
 //   return(
 //     <>
 //       <Section title="스포츠" content="오늘의 프로야구는 기아가 1등입니다."/>
@@ -68,10 +76,10 @@ import Table from './Table';
 // };
 // export default App;
 function App() {
-  return(
+  return (
     <>
-      <Table/>
+      <NameCard />
     </>
   );
-};
+}
 export default App;

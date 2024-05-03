@@ -40,6 +40,9 @@ import HooksCnt from "./Hooks1";
 import Members from "./Hook연습문제";
 import NameCard from "./NameCard";
 import ExComponent from "./UserRef2";
+import Info from "./UseEffect";
+import ReducerCtn from "./UseReducer";
+import Average from "./UseMemo";
 // const member = {
 //   name: "곰사육사",
 //   age: 10,
@@ -78,7 +81,7 @@ import ExComponent from "./UserRef2";
 function App() {
   return (
     <>
-      <NameCard />
+      <Average />
     </>
   );
 }

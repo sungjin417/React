@@ -32,17 +32,15 @@ const Button = styled.button`
   }
 
   /* 다음 코드는 inverted 값이 true 일 때 특정 스타일을 부여해줍니다. */
-  ${(props) =>
-    props.inverted &&
-    css`
-      background: none;
-      border: 2px solid white;
-      color: white;
-      &:hover {
+  ${(props) => props.inverted && css`;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    &:hover {
         background: white;
         color: black;
-      }
-    `};
+    }
+  `};
   & + button {
     margin-left: 1rem;
   }

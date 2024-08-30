@@ -81,7 +81,7 @@ import Average from "./UseMemo";
 function App() {
   return (
     <>
-      <Average />
+      <TodoList />
     </>
   );
 }
